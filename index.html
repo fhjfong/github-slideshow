@@ -2,9 +2,11 @@
 layout: presentation
 ---
 
+something new
 {% for post in site.posts reversed %}
 	{% include slide.html %}
 	<div class="page-break"></div>
+  <div class="page-break"></div>
 {% endfor %}
 {% unless site.simple-slideshow %}
 {% if site.overview %}
